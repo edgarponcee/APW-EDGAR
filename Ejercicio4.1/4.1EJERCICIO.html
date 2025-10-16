@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Datos</title>
+    <style>
+        form { border: 1px solid black; padding: 20px; width: fit-content; }
+    </style>
+</head>
+<body>
+
+    <form action="/procesar-registro" method="post">
+        
+        <h2>Rellena tus datos</h2>
+
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="dni">DNI</label><br>
+        <input type="text" id="dni" name="dni"><br><br>
+
+        <p>Idioma materno</p>
+        
+        <input type="radio" id="castellano" name="idioma" value="castellano" checked>
+        <label for="castellano">Castellano</label><br>
+        
+        <input type="radio" id="valenciano" name="idioma" value="valenciano">
+        <label for="valenciano">Valenciano</label><br>
+        
+        <input type="radio" id="otros" name="idioma" value="otros">
+        <label for="otros">Otros</label><br><br>
+
+        <label for="foto">Subir mi foto</label>
+        <input type="file" id="foto" name="foto"><br><br>
+
+        <input type="checkbox" id="datos_visibles" name="datos_visibles">
+        <label for="datos_visibles">Permitir que otros puedan ver mis datos</label><br><br>
+
+        <input type="submit" value="Guardar cambios"> <input type="reset" value="Borrar los datos introducidos"> </form>
+
+</body>
+</html>
