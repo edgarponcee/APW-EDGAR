@@ -1,0 +1,248 @@
+.marco-principal {
+    border: 3px solid #333;
+    width: 480px;
+    height: 280px;
+    margin: 25px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.marco-principal .elemento {
+    float: left;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.marco-principal .item-a {
+    background-color: #4682b4;
+    border: 1px solid #aaa;
+    width: 240px;
+    height: 140px;
+    line-height: 140px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.marco-principal .item-b {
+    background-color: #ffffe0;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+}
+
+.marco-principal .item-c {
+    background-color: #f08080;
+    border: 2px dashed #000;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    clear: left;
+}
+
+
+.zona-abs-a {
+    border: 3px solid #333;
+    width: 480px;
+    height: 280px;
+    margin: 25px auto;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.zona-abs-a .elemento-abs {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.zona-abs-a .item-a-abs {
+    background-color: #4682b4;
+    border: 1px solid #aaa;
+    width: 270px;
+    height: 170px;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 170px;
+}
+
+.zona-abs-a .item-b-abs {
+    background-color: #ffffe0;
+    width: 150px;
+    height: 110px;
+    right: 25px;
+    top: calc(50% - 75px); 
+    line-height: 110px;
+}
+
+.zona-abs-a .item-c-abs {
+    background-color: #f08080;
+    border: 2px dashed #000;
+    width: 150px;
+    height: 110px;
+    right: 25px;
+    top: calc(50% + 35px); 
+    line-height: 110px;
+}
+
+
+.zona-abs-b {
+    border: 3px solid #333;
+    width: 480px;
+    height: 280px;
+    margin: 25px auto;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.zona-abs-b .elemento-abs {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.zona-abs-b .item-a-abs {
+    background-color: #4682b4;
+    border: 1px solid #aaa;
+    width: 270px;
+    height: 160px;
+    right: 20px;
+    top: 20px;
+    line-height: 160px;
+}
+
+.zona-abs-b .item-b-abs {
+    background-color: #ffffe0;
+    width: 110px;
+    height: 110px;
+    left: 20px;
+    top: 10px; 
+    line-height: 110px;
+}
+
+.zona-abs-b .item-c-abs {
+    background-color: #f08080;
+    border: 2px dashed #000;
+    width: 110px;
+    height: 110px;
+    left: 20px;
+    top: 100px; 
+    line-height: 110px;
+}
+
+
+.zona-abs-c {
+    border: 3px solid #333;
+    width: 480px;
+    height: 280px;
+    margin: 25px auto;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.zona-abs-c .elemento-abs {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.zona-abs-c .item-a-abs {
+    background-color: #4682b4;
+    border: 1px solid #aaa;
+    width: 270px;
+    height: 160px;
+    right: 20px;
+    top: 20px;
+    line-height: 160px;
+}
+
+.zona-abs-c .item-b-abs {
+    background-color: #ffffe0;
+    width: 130px;
+    height: 100px;
+    right: 20px;
+    bottom: 20px;
+    line-height: 100px;
+}
+
+.zona-abs-c .item-c-abs {
+    background-color: #f08080;
+    border: 2px dashed #000;
+    width: 150px;
+    height: 120px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 120px;
+}
+
+
+.zona-abs-d {
+    border: 3px solid #333;
+    width: 480px;
+    height: 280px;
+    margin: 25px auto;
+    padding: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.zona-abs-d .elemento-abs {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.zona-abs-d .item-a-abs {
+    background-color: #4682b4;
+    border: 1px solid #aaa;
+    width: 270px;
+    height: 170px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 170px;
+}
+
+.zona-abs-d .item-b-abs {
+    background-color: #ffffe0;
+    width: 140px;
+    height: 100px;
+    left: 25px;
+    top: calc(50% - 95px);
+    line-height: 100px;
+}
+
+.zona-abs-d .item-c-abs {
+    background-color: #f08080;
+    border: 2px dashed #000;
+    width: 130px;
+    height: 100px;
+    right: 20px;
+    bottom: 20px;
+    line-height: 100px;
+}
+
+
+.zona-abs-e {
+    border: 3px solid #3
+
+
